@@ -1,0 +1,34 @@
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Interface Method</Title>
+      <Shortcut>im</Shortcut>
+      <Description>Interface Method</Description>
+      <Author>Steven Pollack</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>ReturnType</ID>
+          <ToolTip></ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>MethodName</ID>
+          <ToolTip></ToolTip>
+          <Default>MethodName</Default>
+        </Literal>
+        <Literal>
+          <ID>Parameters</ID>
+          <ToolTip>method parameters</ToolTip>
+          <Default></Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[$ReturnType$ $MethodName$($Parameters$);
+      $end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

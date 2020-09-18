@@ -1,0 +1,37 @@
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Test Method</Title>
+      <Shortcut>mvt</Shortcut>
+      <Description>Test Method</Description>
+      <Author>Benjamin Day</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>TestMethod</ID>
+          <ToolTip></ToolTip>
+          <Default>Fact</Default>
+        </Literal>
+        <Literal>
+          <ID>TestOutput</ID>
+          <ToolTip></ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>TestMethodName</ID>
+          <ToolTip></ToolTip>
+          <Default>TestMethodName</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[[$TestMethod$]
+public $TestOutput$ $TestMethodName$()
+{
+ Assert.Equal(1, 0);
+}$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
